@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --mn-ivory: #F7F5EF;
+  --mn-white: #FFFFFF;
+  --mn-charcoal: #202421;
+  --mn-sage: #71806B;
+  --mn-sage-dark: #53604F;
+  --mn-terracotta: #B86F52;
+  --mn-border: #E4E1D8;
+  --mn-muted: #73766F;
+
+  font-family: Inter, system-ui, sans-serif;
+  color: var(--mn-charcoal);
+  background: var(--mn-ivory);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--mn-ivory);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}

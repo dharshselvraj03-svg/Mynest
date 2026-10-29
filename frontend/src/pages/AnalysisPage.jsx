@@ -130,7 +130,7 @@ function AnalysisPage() {
 
           const response =
             await fetch(
-              "http://localhost:5000/api/planning/analyze-requirements",
+              `${import.meta.env.VITE_API_BASE_URL}/api/planning/analyze-requirements`,
               {
                 method: "POST",
 
